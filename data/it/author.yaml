@@ -1,0 +1,18 @@
+# some information about you
+name: "Stefano Pedicino"
+nickname: "Stefano"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Ciao, sono"
+image: "images/author/stefano.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "ss_pedi@outlook.com"
+  phone: "+393510331998"
+
+# some summary about what you do
+summary:
+  - Sono un Data Scientist
+  - Sono un Data Analyst
+  - Appassionato di informatica
+  - Lavoro su progetti open source
+  - Mi piace lavorare per progetti divertenti

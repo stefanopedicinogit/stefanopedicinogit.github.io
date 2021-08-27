@@ -1,0 +1,19 @@
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Yandex Bootcamp
+  image: /images/sections/achievements/bootcamp.jpeg
+  summary: Completed Practicum by Yandex bootcamp in Data Science (580 hours) in 2021
+
+- title: Graduation
+  image: /images/sections/achievements/graduation-cap.jpg
+  summary: Received Bachelor Degree in Tourism Development Policy and Management (EQF level 6) from Universita' del Piemonte Orientale in 2017

@@ -1,0 +1,56 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Bachelor Degree in Tourism Development Policy and Management (EQF level 6)
+  icon: fa-graduation-cap
+  timeframe: 2014-2017
+  institution:
+    name: Universita' del Piemonte Orientale (Novara, Italy)
+    url: "https://www.uniupo.it/it"
+  grade: #(optional)
+    scale: Vote
+    achieved: 90
+    outOf: 110
+  takenCourses:
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    courses:
+    - name: Statistic
+      achieved: 30
+      outOf: 30
+    - name: Politic Economy
+      achieved: 30+
+      outOf: 30+
+    - name: Administrative Law
+      achieved: 28
+      outOf: 30+
+    - name: Internal Audit
+      achieved: 26
+      outOf: 30+
+  publications: #(optional)
+    - title: Music as Rudder of Cultural Tourism (Thesis)
+
+- name: High School Certificate as Computer Expert (EQF level 4)
+  icon: fa-university
+  timeframe: 2009-2014
+  institution:
+    name: I.T.C. Salvatore Rampone
+    url: "https://www.palmieriramponepolo.edu.it/"
+  grade: #(optional)
+    scale: Vote
+    achieved: 87
+    outOf: 100
+- name: Data Scientist Professional Training Course (580 hours)
+  icon: fa-graduation-cap
+  timeframe: 2020-2021
+  institution:
+    name: Yandex School of Data Analysis

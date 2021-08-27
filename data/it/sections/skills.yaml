@@ -1,0 +1,67 @@
+# section information
+section:
+  name: Abilità
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Abilità di programmazione avanzate."
+  url: "https://www.python.org/"
+
+- name: seaborn, Matplotlib, plotly
+  logo: /images/sections/skills/Seaborn.png
+  summary: "Costruzione di grafici stupefacenti. Esperienza anche con Tableau."
+  url: "https://seaborn.pydata.org/"
+
+- name: sklearn, PyTorch, tensorflow
+  logo: /images/sections/projects/tensorflow.png
+  summary: "Utilizzo di Python come linguaggio principale per lo sviluppo professionale. Capace di costruire ottimi modelli e architetture."
+  url: "https://scikit-learn.org/stable/"
+
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "Buona padronanza. Recupero database. Query/Subquery."
+  url: "https://www.mysql.com/it/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Utilizzo di Linux come secondo sistema operativo (comando Shell). Conoscenza base di BASH scripting."
+  url: "https://www.linux.it/"
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Esperienza con lo sviluppo basato su git. Principalmente via Github. Inoltre, ho esperienza nel lavorare con GitLab."
+  url: "https://git-scm.com/"
+
+- name: C/C++
+  logo: /images/sections/skills/c++.png
+  summary: "Conoscenza base di C/C++. Utilizzato per la programmazione e la risoluzione dei problemi."
+  url: "https://devdocs.io/cpp/"
+
+- name: C-Objective
+  logo: /images/sections/skills/csharp.png
+  summary: "Conoscenza base di C#. Utilizzato per gli script di codice per il motore dei videogiochi."
+  url: "https://docs.microsoft.com/it-it/dotnet/csharp/"
+
+- name: Unity 3D
+  logo: /images/sections/skills/Unity.png
+  summary: "Conoscenza base. Piattaforma/Interfaccia grafica per la creazione di videogames."
+  url: "https://unity.com/"
+
+- name: HTML5
+  logo: /images/sections/skills/html5.png
+  summary: "Conoscenze di base del linguaggio di markup HTML5. In grado di estrarre codici in formato JSON dal Web per creare database."
+  url: "https://html.com/tags/doctype/"
+
+- name: YAML
+  logo: /images/sections/skills/yaml.png
+  summary: "Conoscenze di base del linguaggio di markup YAML (YAML Ain't a Markup Language)"
+  url: "https://html.com/tags/doctype/"

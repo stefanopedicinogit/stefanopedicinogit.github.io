@@ -1,0 +1,19 @@
+# section information
+section:
+  name: Traguardi
+  id: achievements
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Yandex Bootcamp
+  image: /images/sections/achievements/bootcamp.jpeg
+  summary: Completato bootcamp Practicum by Yandex in Data Science (580 ore) nel 2021
+
+- title: Laurea
+  image: /images/sections/achievements/graduation-cap.jpg
+  summary: Ha conseguito la laurea triennale in Politiche e gestione dello sviluppo turistico (livello EQF 6) presso l'Università del Piemonte Orientale nel 2017.

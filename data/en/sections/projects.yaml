@@ -1,0 +1,168 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Data Preprocessing
+  logo: /images/sections/projects/pandas.png
+  role: Owner / Data Analyst
+  timeline: "Dic 2020 - Jan 2021"
+  repo: https://github.com/stefanopedicinogit/Data_Preprocessing-Project/blob/main/Data%20Preprocessing%20Project.ipynb # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Preparing a report for a bank’s loan division.
+  tags: ["professional", "Yandex", "data_processing", "pandas", "numpy"]
+
+- name: Exploratory Data Analysis
+  logo: /images/sections/projects/matplotlib.png
+  role: Owner / Data Analyst
+  timeline: "Jan 2021 - Jan 2021"
+  repo: https://github.com/stefanopedicinogit/Exploratory_Data_Analysis-EDA-Project/blob/main/Exploratory%20Data%20Analysis%20(EDA)%20Project.ipynb
+  #url: ""
+  summary: Research on cars ads as analyst. Explore and graphically render the data.
+  tags: ["professional", "Yandex", "data_analysis", "graphics"]
+
+- name: Statistical Data Analysis
+  logo: /images/sections/projects/h0h1.png
+  role: Owner / Data Analyst
+  timeline: "Jan 2021 - Feb 2021"
+  repo: https://github.com/stefanopedicinogit/Statistical_Data_Analysis-SDA-Project/blob/main/Statistical%20Data%20Analysis%20Project.ipynb
+  #url: ""
+  summary: Your job is to analyze clients' behavior and determine which prepaid plan brings in more revenue.
+  tags: ["professional", "Yandex", "statistic", "data_analysis"]
+
+- name: Integrated Project 1
+  logo: /images/sections/projects/Seaborn.png
+  role: Owner / Data Analyst
+  timeline: "Feb 2021 - Mar 2021"
+  repo: https://github.com/stefanopedicinogit/Integrated_Project_1/blob/main/Integrated%20Project%201%20.ipynb
+  #url: ""
+  summary: Being the data analyst for an online store which sells video games all over the world, carry out Data Analysis and formulate statistical hypotesis.
+  tags: ["professional", "Yandex", "statistic", "data_analysis"]
+
+- name: Data Collection and Storage-SQL-PySparks
+  logo: /images/sections/projects/sql.png
+  role: Owner / Data Analyst
+  timeline: "Mar 2021 - Mar 2021"
+  repo: https://github.com/stefanopedicinogit/Data_Collection_and_Storage-SQL-PySparks-Project/blob/main/Data%20Collection%20and%20Storage%20(SQL)%20Project.ipynb
+  #url: ""
+  summary: Study a database, analyze data from competitors, and test a hypothesis about the impact of weather on ride frequency.
+  tags: ["professional", "Yandex", "SQL", "PySparks", 'collection_and_storage']
+
+- name: Introduction to Machine Learning
+  logo: /images/sections/projects/scikit_learn.png
+  role: Owner / Data Scientist
+  timeline: "Mar 2021 - Apr 2021"
+  repo: https://github.com/stefanopedicinogit/Introduction_to_Machine_Learning-Project/blob/main/Introduction%20to%20Machine%20Learning%20Project.ipynb
+  #url: ""
+  summary: For this classification task, need to develop a model that will pick the right plan. The threshold for accuracy is 0.75.
+  tags: ["professional", "Yandex", "machine_learning", "classification_model"]
+
+- name: Supervised Learning
+  logo: /images/sections/projects/scikit_learn.png
+  role: Owner / Data Scientist
+  timeline: "Apr 2021 - Apr 2021"
+  repo: https://github.com/stefanopedicinogit/Supervised_Learning/blob/main/Supervised%20Learning%20Project.ipynb
+  #url: ""
+  summary: Customers are leaving the bank, little by little, chipping away every month. The bankers figured out it’s cheaper to save the existing customers rather than to attract new ones. Predict whether a customer will leave the bank soon. To pass the project, you need an F1 score of at least 0.59.
+  tags: ["professional", "Yandex", "machine_learning", "classification_model", "supervised_learning", "f1_score", "ROC"]
+
+- name: Machine Learning in Business
+  logo: /images/sections/projects/scikit_learn.png
+  role: Owner / Data Scientist
+  timeline: "Apr 2021 - May 2021"
+  repo: https://github.com/stefanopedicinogit/Machine_Learning_in_Business-Project/blob/main/Machine%20Learning%20in%20Business%20Project.ipynb
+  #url: ""
+  summary: Working for A mining company. The task is to find the best place for a new well. Build a model for predicting the volume of reserves in the new wells. Build a model that will help to pick the region with the highest profit margin. Analyze potential profit and risks using the Bootstrapping technique.
+  tags: ["professional", "Yandex", "machine_learning", "regression_model", "RMSE", "r2_score", "risk_calculation", "bootstrapping_tecnique"]
+
+- name: Integrated Project 2
+  logo: /images/sections/projects/scikit_learn.png
+  role: Owner / Data Scientist
+  timeline: "May 2021 - May 2021"
+  #repo:
+  #url: ""
+  summary: Preparing a prototype of a machine learning model for a ore foundry. This company develops efficiency solutions for heavy industry. The interested model should predict the amount of gold recovered from gold ore. Evaluation method SMAPE.
+  tags: ["professional", "Yandex", "machine_learning", "regression_model", "SMAPE"]
+
+- name: Linear Algebra
+  logo: /images/sections/projects/alg.png
+  role: Owner / Data Scientist
+  timeline: "May 2021 - May 2021"
+  repo: https://github.com/stefanopedicinogit/Linear_Algebra/blob/main/Linear%20Algebra%20Project.ipynb
+  #url: ""
+  summary: An insurance company wants to solve several tasks with the help of Machine Learning, and you are asked to evaluate that possibility. Find customers who are similar to a given customer. This will help the company's agents with marketing. Predict whether a new customer is likely to receive an insurance benefit. Can a prediction model do better than a dummy model? Predict the number of insurance benefits a new customer is likely to receive using a linear regression model. Protect clients' personal data without breaking the model from the previous task. It's necessary to develop a data transformation
+  tags: ["professional", "Yandex", "numpy", "machine_learning", "regression_and_classification_models", "applied_algebra", "matrix", "KNeighbors"]
+
+- name: Numerical Methods
+  logo: /images/sections/projects/catboost.png
+  role: Owner / Data Scientist
+  timeline: "May 2021 - Jun 2021"
+  repo: https://github.com/stefanopedicinogit/Numerical_Methods-Project/blob/main/Numerical%20Methods%20Project.ipynb
+  summary: A used car sales service is developing an app to attract new customers. In that app, you can quickly find out the market value of your car. You have access to historical data, technical specifications, trim versions, and prices. You need to build the model to determine the value. This company is interested in the quality of the prediction, the speed of the prediction, the time required for training.
+  tags: ["professional", "Yandex", "machine_learning", "regression_models", "SGD_regression_models", "CatBoost", "LGBM", "XGBoost"]
+
+- name: Time Series
+  logo: /images/sections/projects/time-series-analysis.png
+  role: Owner / Data Scientist
+  timeline: "Jun 2021 - Jun 2021"
+  repo: https://github.com/stefanopedicinogit/Time_Series-Project/blob/main/Time%20Series%20Project.ipynb
+  #url: ""
+  summary: A Taxi company has collected historical data on taxi orders at airports. To attract more drivers during peak hours, predict the amount of taxi orders for the next hour. Build a model for such a prediction. The RMSE metric on the test set should not be more than 48.
+  tags: ["professional", "Yandex", "machine_learning", "regression_models", "time series", "Stochastic Gradient Descent models"]
+
+- name: Machine learning for Texts
+  logo: /images/sections/projects/BERT.png
+  role: Owner / Data Scientist
+  timeline: "Jun 2021 - July 2021"
+  repo: https://github.com/stefanopedicinogit/Machine_Learning_For_Text-Project/blob/main/Machine%20Learning%20for%20Texts%20Project.ipynb
+  summary: A new edgy community for classic movie enthusiasts, is developing a system for filtering and categorizing movie reviews. The goal is to train a model to automatically detect negative reviews. F1 score of at least 0.85.
+  tags: ["professional", "Yandex", "machine_learning", "classification_models", "probabilities", "NLTK", "spaCy" ,"TF-IDF", "BERT"]
+
+- name: Computer Vision
+  logo: /images/sections/projects/tensorflow.png
+  role: Owner / Data Scientist
+  timeline: "July 2021 - July 2021"
+  repo: https://github.com/stefanopedicinogit/Computer_Vision-Project/blob/main/Computer%20Vision%20Project.ipynb
+  summary: Computer vision methods can be used to determine age of a person from a photo. The task then is to build and evaluate a neural network architecture for verifying people's age.
+  tags: ["professional", "Yandex", "machine_learning", "NeuralNetworks", "ResNet50", "regression_on_images"]
+
+- name: Final Project
+  logo: /images/sections/projects/jupiter.png
+  role: Owner / Data Scientist
+  timeline: "Aug 2021 - Aug 2021"
+  repo: https://github.com/stefanopedicinogit/Final-Project
+  summary: A telephonic company would like to be able to forecast their clients churns. Build a model to predict the target. (Two file ipynb in the link.)
+  tags: ["professional", "Yandex", "machine_learning"]
+
+- name: Toha
+  logo: /images/sections/projects/toha.png
+  role: Hugo Theme
+  timeline: "Aug 2021"
+  repo: https://github.com/hossainemruz/toha
+  summary: Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme"]
+
+- name: A sample academic paper
+  role: Team Lead
+  timeline: "Jan 2017 - Nov 2017"
+  url: "https://www.example.com"
+  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
+  tags: ["academic","iot"]

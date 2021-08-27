@@ -1,0 +1,168 @@
+# section information
+section:
+  name: Progetti
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Generale
+  filter: "gen"
+- name: Lavoro
+  filter: "professionale"
+- name: Educazione
+  filter: "academica"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Pre-elaborazione dei dati
+  logo: /images/sections/projects/pandas.png
+  role: Owner / Data Analyst
+  timeline: "Dic 2020 - Jan 2021"
+  repo: https://github.com/stefanopedicinogit/Data_Preprocessing-Project/blob/main/Data%20Preprocessing%20Project.ipynb # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Preparazione di un rapporto per la divisione prestiti di una banca.
+  tags: ["professionale", "Yandex", "pre-elaborazione", "pandas", "numpy"]
+
+- name: Analisi esplorativa dei dati
+  logo: /images/sections/projects/matplotlib.png
+  role: Owner / Data Analyst
+  timeline: "Jan 2021 - Jan 2021"
+  repo: https://github.com/stefanopedicinogit/Exploratory_Data_Analysis-EDA-Project/blob/main/Exploratory%20Data%20Analysis%20(EDA)%20Project.ipynb
+  #url: ""
+  summary: Ricerca sugli annunci di auto come analista. Esplorazione e renderizzazione grafica dei dati.
+  tags: ["professionale", "Yandex", "analisi_di_dati", "rappresentazione_grafica"]
+
+- name: Analisi dei dati statistici
+  logo: /images/sections/projects/h0h1.png
+  role: Owner / Data Analyst
+  timeline: "Jan 2021 - Feb 2021"
+  repo: https://github.com/stefanopedicinogit/Statistical_Data_Analysis-SDA-Project/blob/main/Statistical%20Data%20Analysis%20Project.ipynb
+  #url: ""
+  summary: Il tuo compito è analizzare il comportamento dei clienti e determinare quale piano prepagato genera maggiori entrate. Ipotesi statistiche A/B.
+  tags: ["professionale", "Yandex", "statistica", "analisi_di_dati"]
+
+- name: Progetto integrato 1
+  logo: /images/sections/projects/Seaborn.png
+  role: Owner / Data Analyst
+  timeline: "Feb 2021 - Mar 2021"
+  repo: https://github.com/stefanopedicinogit/Integrated_Project_1/blob/main/Integrated%20Project%201%20.ipynb
+  #url: ""
+  summary: Come analista di dati per un negozio online che vende videogiochi in tutto il mondo, effettuare analisi dei dati e formulare ipotesi statistiche.
+  tags: ["professionale", "Yandex", "statistica", "analisi_di_dati"]
+
+- name: Raccolta e archiviazione dati-SQL-PySparks
+  logo: /images/sections/projects/sql.png
+  role: Owner / Data Analyst
+  timeline: "Mar 2021 - Mar 2021"
+  repo: https://github.com/stefanopedicinogit/Data_Collection_and_Storage-SQL-PySparks-Project/blob/main/Data%20Collection%20and%20Storage%20(SQL)%20Project.ipynb
+  #url: ""
+  summary: Studia un database, analizza i dati dei concorrenti e verifica un'ipotesi sull'impatto del tempo sulla frequenza delle corse dei taxi.
+  tags: ["professionale", "Yandex", "SQL", "PySparks", 'raccolta_archiviazione_dati']
+
+- name: Introduzione all'apprendimento automatico
+  logo: /images/sections/projects/scikit_learn.png
+  role: Owner / Data Scientist
+  timeline: "Mar 2021 - Apr 2021"
+  repo: https://github.com/stefanopedicinogit/Introduction_to_Machine_Learning-Project/blob/main/Introduction%20to%20Machine%20Learning%20Project.ipynb
+  #url: ""
+  summary: Per questa attività di classificazione, è necessario sviluppare un modello che scelga il piano giusto. La soglia di precisione è 0,75.
+  tags: ["professionale", "Yandex", "apprendimento_automatico", "modelli_di_classificazione"]
+
+- name: Apprendimento supervisionato
+  logo: /images/sections/projects/scikit_learn.png
+  role: Owner / Data Scientist
+  timeline: "Apr 2021 - Apr 2021"
+  repo: https://github.com/stefanopedicinogit/Supervised_Learning/blob/main/Supervised%20Learning%20Project.ipynb
+  #url: ""
+  summary: I clienti lasciano la banca, a poco a poco, intaccando ogni mese. I banchieri hanno capito che è più economico salvare i clienti esistenti piuttosto che attirarne di nuovi. Indovina se un cliente lascerà presto la banca. Per superare il progetto, è necessario un punteggio F1 di almeno 0,59.
+  tags: ["professionale", "Yandex", "apprendimento_automatico", "modelli_di_classificazione", "apprendimento_supervisionato", "f1_score", "ROC"]
+
+- name: Apprendimento automatico nel business
+  logo: /images/sections/projects/scikit_learn.png
+  role: Owner / Data Scientist
+  timeline: "Apr 2021 - May 2021"
+  repo: https://github.com/stefanopedicinogit/Machine_Learning_in_Business-Project/blob/main/Machine%20Learning%20in%20Business%20Project.ipynb
+  #url: ""
+  summary: Working for A mining company. The task is to find the best place for a new well. Build a model for predicting the volume of reserves in the new wells. Build a model that will help to pick the region with the highest profit margin. Analyze potential profit and risks using the Bootstrapping technique.
+  tags: ["professionale", "Yandex", "apprendimento_automatico", "regressione_lineare", "scarto_quadratico_medio", "r2_score", "calcolo_del_rischio", "tecnica_di_boostrap"]
+
+- name: Progetto integrato 2
+  logo: /images/sections/projects/scikit_learn.png
+  role: Owner / Data Scientist
+  timeline: "May 2021 - May 2021"
+  #repo:
+  #url: ""
+  summary: Preparazione di un prototipo di un modello di apprendimento automatico per una fonderia di minerali. Questa azienda sviluppa soluzioni di efficienza per l'industria pesante. Il modello interessato dovrebbe prevedere la quantità di oro recuperata dal minerale d'oro. Metodo di valutazione SMPE.
+  tags: ["professionale", "Yandex", "apprendimento_automatico", "regressione_lineare", "SMAPE"]
+
+- name: Algebra lineare
+  logo: /images/sections/projects/alg.png
+  role: Owner / Data Scientist
+  timeline: "May 2021 - May 2021"
+  repo: https://github.com/stefanopedicinogit/Linear_Algebra/blob/main/Linear%20Algebra%20Project.ipynb
+  #url: ""
+  summary: Una compagnia di assicurazioni vuole risolvere diversi compiti con l'aiuto del Machine Learning e ti viene chiesto di valutare tale possibilità. Trova clienti simili a un determinato cliente. Questo aiuterà gli agenti dell'azienda con il marketing. Prevedi se è probabile che un nuovo cliente riceva un vantaggio assicurativo. Può un modello di previsione fare meglio di un modello fittizio? Prevedere il numero di vantaggi assicurativi che un nuovo cliente potrebbe ricevere utilizzando un modello di regressione lineare. Proteggi i dati personali dei clienti senza interrompere il modello dell'attività precedente. È necessario sviluppare una trasformazione dei dati.
+  tags: ["professionale", "Yandex", "numpy", "machine_learning", "modelli_di_regressione_classificazione", "algebra_applicata", "matrici", "matrici_offuscate", "KNeighbors"]
+
+- name: Metodi numerici
+  logo: /images/sections/projects/catboost.png
+  role: Owner / Data Scientist
+  timeline: "May 2021 - Jun 2021"
+  repo: https://github.com/stefanopedicinogit/Numerical_Methods-Project/blob/main/Numerical%20Methods%20Project.ipynb
+  summary: Un servizio di vendita di auto usate sta sviluppando un'app per attirare nuovi clienti. In quell'app, puoi scoprire rapidamente il valore di mercato della tua auto. Hai accesso a dati storici, specifiche tecniche, versioni di allestimento e prezzi. È necessario costruire il modello per determinare il valore. Questa società è interessata alla qualità delle predizioni, alla velocità delle predizioni, al tempo necessario per l'allenamento.
+  tags: ["professionale", "Yandex", "apprendimento_automatico", "regressione_lineare", "modelli_regressivi_SGD", "CatBoost", "LGBM", "XGBoost"]
+
+- name: Serie temporali
+  logo: /images/sections/projects/time-series-analysis.png
+  role: Owner / Data Scientist
+  timeline: "Jun 2021 - Jun 2021"
+  repo: https://github.com/stefanopedicinogit/Time_Series-Project/blob/main/Time%20Series%20Project.ipynb
+  #url: ""
+  summary: Una compagnia di taxi ha raccolto dati storici sugli ordini di taxi negli aeroporti. Per attirare più conducenti durante le ore di punta, prevedere la quantità di ordini di taxi per l'ora successiva. Costruisci un modello per tale previsione. La metrica RMSE sul set di test non deve essere superiore a 48.
+  tags: ["professionale", "Yandex", "apprendimento_automatico", "regressione_lineare", "serie temporali", "Modelli stocastici a discesa con gradiente"]
+
+- name: Apprendimento automatico per i testi
+  logo: /images/sections/projects/BERT.png
+  role: Owner / Data Scientist
+  timeline: "Jun 2021 - July 2021"
+  repo: https://github.com/stefanopedicinogit/Machine_Learning_For_Text-Project/blob/main/Machine%20Learning%20for%20Texts%20Project.ipynb
+  summary: A new edgy community for classic movie enthusiasts, is developing a system for filtering and categorizing movie reviews. The goal is to train a model to automatically detect negative reviews. F1 score of at least 0.85.
+  tags: ["professionale", "Yandex", "apprendimento_automatico", "modelli_di_classificazione", "probabilita", "NLTK", "spaCy" ,"TF-IDF", "BERT"]
+
+- name: Visione artificiale
+  logo: /images/sections/projects/tensorflow.png
+  role: Owner / Data Scientist
+  timeline: "July 2021 - July 2021"
+  repo: https://github.com/stefanopedicinogit/Computer_Vision-Project/blob/main/Computer%20Vision%20Project.ipynb
+  summary: I metodi di visione artificiale possono essere utilizzati per determinare l'età di una persona da una foto. Il compito quindi è costruire e valutare un'architettura di rete neurale per verificare l'età delle persone.
+  tags: ["professionale", "Yandex", "apprendimento_automatico", "reti neurali", "ResNet50", "regressione_su_immagini"]
+
+- name: Progetto finale
+  logo: /images/sections/projects/jupiter.png
+  role: Owner / Data Scientist
+  timeline: "Aug 2021 - Aug 2021"
+  repo: https://github.com/stefanopedicinogit/Final-Project
+  summary: Un'azienda telefonica vorrebbe essere in grado di prevedere il tasso di abbandono dei propri clienti. Costruisci un modello per prevedere l'obiettivo. (Due file ipynb nel collegamento.)
+  tags: ["professionale", "Yandex", "apprendimento_automatico"]
+
+- name: Toha
+  logo: /images/sections/projects/toha.png
+  role: Hugo Theme
+  timeline: "Aug 2021"
+  repo: https://github.com/hossainemruz/toha
+  summary: Tema Hugo per portfolio personale.
+  tags: ["hobby","hugo","theme"]
+
+- name: Esempio di carte accademiche
+  role: Team Lead
+  timeline: "Jan 2017 - Nov 2017"
+  url: "https://www.example.com"
+  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
+  tags: ["academic","iot"]

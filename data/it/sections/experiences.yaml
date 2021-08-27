@@ -1,0 +1,67 @@
+# section information
+section:
+  name: Esperienze
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Practicum by Yandex
+    url: "https://www.linkedin.com/school/practicum-by-yandex/mycompany/"
+    location: Remoto
+    # company overview
+    overview: Bootcamp offerto dalla Yandex School of Data Analysis (580 ore).
+  positions:
+  - designation: Data Science Student
+    start: Dic 2020
+    end: Aug 2021
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Python e basi di analisi dei dati | Pretrattamento dei dati |
+    - Analisi esplorativa dei dati (EDA) | Analisi dei dati statistici | Analisi aziendale
+    - Raccolta e archiviazione dati (SQL)
+    - Introduzione all'apprendimento automatico | Apprendimento supervisionato | Apprendimento automatico per le aziende
+    - Algebra lineare | Metodi numerici | serie temporali
+    - Apprendimento automatico per il testo | Computer vision (Reti Neurali Convoluzionali) | Apprendimento non supervisionato
+    - 12 Portfolio progetti
+
+  - designation: Senior Student
+    start: July 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    responsibilities:
+    - Aiutare i nuovi studenti a migliorare le proprie capacità di codifica.
+    - Mentoring, coaching e assistenza.
+
+- company:
+    name: MX Lab Milan (Freelance)
+    url: "https://www.example.com"
+    location: Remote
+    overview: Curatore di una serie di video in streaming una volta alla settimana (2 ore).
+  positions:
+  - designation: Video Editor and Content Creator
+    start: Feb 2020
+    end: Set 2020
+    responsibilities:
+    - Utilizzo di programmi di Video Editing come Shortcut, Filmora 9, DaVinci Resolve 16.
+    - Trasmissione con OBS Studio in diretta su Facebook e Youtube.
+    - Gestione di ogni piattaforma di social network (Facebook, Youtube, Instagram, Soundcloud)
+
+- company:
+    name: foodora
+    url: "https://www.example.com"
+    location: Berlino
+    overview: Parte del dipartimento assistenza clienti italiano
+  positions:
+  - designation: Customer Service Agent
+    start: Jun 2018
+    end: Aug 2018
+    responsibilities:
+    - Garantito un alto livello di servizio ai clienti tramite telefono, live chat ed e-mail.
+    - Programma di spedizione gestito, piattaforma Zendesk CRM e sistema di elaborazione degli ordini.
+    - Raggiunto il 97% di soddisfazione del cliente (valutazione Zendesk)
